@@ -1,7 +1,7 @@
 package com.leetcodes;
 
 /**
- * @author alllen
+ * @author allen
  */
 public class Q11 {
 }
