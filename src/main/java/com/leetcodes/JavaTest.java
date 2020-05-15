@@ -1,4 +1,4 @@
-package com.LeetCode;
+package com.leetcodes;
 
 import lombok.Data;
 

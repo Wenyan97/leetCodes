@@ -1,4 +1,4 @@
-package com.LeetCode;
+package com.leetcodes;
 
 import java.util.function.IntPredicate;
 import java.util.function.Predicate;
