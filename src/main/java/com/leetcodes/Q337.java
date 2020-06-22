@@ -1,5 +1,7 @@
 package com.leetcodes;
 
+import java.util.HashMap;
+
 /**
  * 在上次打劫完一条街道之后和一圈房屋后，小偷又发现了一个新的可行窃的地区。这个地区只有一个入口，我们称之为“根”。 除了“根”之外，每栋房子有且只有一个“父“房子与之相连。一番侦察之后，聪明的小偷意识到“这个地方的所有房屋的排列类似于一棵二叉树”。 如果两个直接相连的房子在同一天晚上被打劫，房屋将自动报警。
  * 计算在不触动警报的情况下，小偷一晚能够盗取的最高金额。
@@ -29,20 +31,26 @@ package com.leetcodes;
  */
 public class Q337 {
     public int rob(TreeNode root) {
-        if (root == null) return 0;
+        HashMap<TreeNode, Integer> memo = new HashMap<>();
+        return robInternal(root, memo);
+    }
 
-        int val = 0;
+    public int robInternal(TreeNode root, HashMap<TreeNode, Integer> memo) {
+        if (root == null) return 0;
+        if (memo.containsKey(root)) return memo.get(root);
+        int money = root.val;
 
         if (root.left != null) {
-            val += rob(root.left.left) + rob(root.left.right);
+            money += (robInternal(root.left.left, memo) + robInternal(root.left.right, memo));
         }
-
         if (root.right != null) {
-            val += rob(root.right.left) + rob(root.right.right);
+            money += (robInternal(root.right.left, memo) + robInternal(root.right.right, memo));
         }
-
-        return Math.max(val + root.val, rob(root.left) + rob(root.right));
+        int result = Math.max(money, robInternal(root.left, memo) + robInternal(root.right, memo));
+        memo.put(root, result);
+        return result;
     }
+
 
     public static void main(String[] args) {
         TreeNode node1 = new TreeNode(3);
