@@ -13,6 +13,7 @@ import java.util.Queue;
  * 如果 d 的值为 1，深度 d - 1 不存在，则创建一个新的根节点 v，原先的整棵树将作为 v 的左子树。
  */
 public class Q623 {
+    //错误方法
     public TreeNode addOneRow(TreeNode root, int v, int d) {
         if (root == null) {
             return root;
@@ -30,6 +31,7 @@ public class Q623 {
 
             for (int i = 0; i < len; i++) {
                 TreeNode tmp = queue.poll();
+                //这里如果是d如果是最后一层的话，直接跳出了
                 if (tmp.left != null) {
                     if (index == d - 1 ) {
                         TreeNode node = new TreeNode(v);
