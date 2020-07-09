@@ -1,25 +1,21 @@
 package com.leetcodes;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 根据一棵树的前序遍历与中序遍历构造二叉树。
- * 注意:
- * 你可以假设树中没有重复的元素。
- * <p>
- * 例如，给出
- * 前序遍历 preorder = [3,9,20,15,7]
- * 中序遍历 inorder = [9,3,15,20,7]
- * 返回如下的二叉树：
- * <p>
- *    3
- *   / \
- *  9  20
- *    /  \
- *   15   7
+ * 返回与给定先序遍历 preorder 相匹配的二叉搜索树（binary search tree）的根结点。
+ *
+ * (回想一下，二叉搜索树是二叉树的一种，其每个节点都满足以下规则，对于 node.left 的任何后代，值总 < node.val，而 node.right 的任何后代，值总 > node.val。此外，先序遍历首先显示节点的值，然后遍历 node.left，接着遍历 node.right。）
  */
-public class Q105 {
+public class Q1008 {
+    public TreeNode bstFromPreorder(int[] preorder) {
+        int[] inorder = Arrays.copyOf(preorder, preorder.length);
+        Arrays.sort(inorder);
+        return buildTree(preorder, inorder);
+    }
+
     public TreeNode myBuildTree(int[] preorder, int[] inorder,
                                 int preorder_left, int preorder_right,
                                 int inorder_left, int inorder_right, Map<Integer, Integer> indexMap) {
