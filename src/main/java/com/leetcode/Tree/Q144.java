@@ -1,7 +1,6 @@
 package com.leetcode.Tree;
 
 import com.datastructures.TreeNode;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.*;
 

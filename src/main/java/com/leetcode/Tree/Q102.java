@@ -2,7 +2,6 @@ package com.leetcode.Tree;
 
 import com.datastructures.TreeNode;
 import com.leetcode.TreeCreator;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.*;
 import java.util.concurrent.LinkedBlockingDeque;
