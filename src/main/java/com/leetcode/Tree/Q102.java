@@ -1,6 +1,7 @@
 package com.leetcode.Tree;
 
 import com.datastructures.TreeNode;
+import com.leetcode.TreeCreator;
 import sun.reflect.generics.tree.Tree;
 
 import java.util.*;
@@ -81,6 +82,8 @@ public class Q102 {
         node2.left = node4;
         node2.right = node5;
         Q102 solution = new Q102();
+        int[] list = new int[]{1,2,4,5,6,7};
+        TreeNode node7 = TreeCreator.bulidBST(list);
         List<List<Integer>> ans = solution.levelOrder(node1);
         System.out.println("ssss");
     }
