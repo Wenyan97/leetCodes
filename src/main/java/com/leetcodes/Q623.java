@@ -116,7 +116,7 @@ public class Q623 {
         node2.left = node4;
         Q623 solution = new Q623();
         solution.addOneRow(node1,5,4);
-        System.out.println(node4.left.val + " ---" + node4.right.val);
+        System.out.println("hello world");
     }
 
 }
