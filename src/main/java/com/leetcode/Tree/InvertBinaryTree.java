@@ -19,7 +19,7 @@ import com.datastructures.TreeNode;
  *  / \   / \
  * 9   6 3   1
  */
-public class Q226 {
+public class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if (root == null) return null;
         TreeNode tmp = invertTree(root.left);

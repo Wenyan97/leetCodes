@@ -7,7 +7,7 @@ import com.datastructures.TreeNode;
  *
  * For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
  */
-public class Q124 {
+public class BinaryTreeMaximumPathSum {
     int ans = Integer.MIN_VALUE;
 
     public int maxPathSum(TreeNode root) {
@@ -24,7 +24,7 @@ public class Q124 {
 
         // 节点的最大路径和取决于该节点的值与该节点的左右子节点的最大贡献值, // 更新答案
         ans = Math.max(ans, left + right + root.val);
-        
+
         // 返回节点的最大贡献值
         return Math.max(left, right) + root.val;
     }

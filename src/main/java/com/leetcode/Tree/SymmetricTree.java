@@ -3,15 +3,13 @@ package com.leetcode.Tree;
 import com.datastructures.TreeNode;
 import com.leetcode.TreeCreator;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 /**
  * Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
  */
-public class Q101 {
+public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         return check(root, root);
     }
@@ -63,7 +61,7 @@ public class Q101 {
 
     public static void main(String[] args) {
         TreeNode node1 = TreeCreator.bulidBST(new int[]{1,2,2,3,4,4,3});
-        Q101 solution = new Q101();
+        SymmetricTree solution = new SymmetricTree();
         solution.dfs(node1);
         System.out.println(solution.isSymmetric2(node1));
         System.out.println(44);

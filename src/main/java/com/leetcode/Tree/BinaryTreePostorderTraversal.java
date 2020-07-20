@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
-public class Q145 {
+public class BinaryTreePostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         LinkedList<Integer> ans = new LinkedList<>();

@@ -9,7 +9,7 @@ import com.datastructures.TreeNode;
  *
  * Note: A leaf is a node with no children.
  */
-public class Q111 {
+public class MinimumDepthOfBinaryTree {
     int minDepth = Integer.MAX_VALUE;
     public int minDepth(TreeNode root) {
         if (root == null) return 0;

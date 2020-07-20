@@ -6,7 +6,7 @@ import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Q113 {
+public class PathSumII {
     List<List<Integer>> ans = new ArrayList<>();
     List<Integer> list = new ArrayList<>();
     public List<List<Integer>> pathSum(TreeNode root, int sum) {

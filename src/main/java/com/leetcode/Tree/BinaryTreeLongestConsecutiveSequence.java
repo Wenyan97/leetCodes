@@ -1,8 +1,6 @@
 package com.leetcode.Tree;
 
 import com.datastructures.TreeNode;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-import sun.reflect.generics.tree.Tree;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +10,7 @@ import java.util.Map;
  *
  * The path refers to any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The longest consecutive path need to be from parent to child (cannot be the reverse).
  */
-public class Q298 {
+public class BinaryTreeLongestConsecutiveSequence {
     int maxSum = Integer.MIN_VALUE;
     Map<TreeNode, TreeNode> nodeMap = new HashMap<>();
     public int longestConsecutive(TreeNode root) {
@@ -75,7 +73,7 @@ public class Q298 {
         node2.left = node3;
         node2.right = node4;
         node4.right = node5;
-        Q298 solution = new Q298();
+        BinaryTreeLongestConsecutiveSequence solution = new BinaryTreeLongestConsecutiveSequence();
         System.out.println(solution.longestConsecutive(node1));
     }
 }

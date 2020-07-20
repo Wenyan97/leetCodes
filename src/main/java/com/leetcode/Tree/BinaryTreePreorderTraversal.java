@@ -16,7 +16,7 @@ import java.util.*;
  * 输出: [1,2,3]
  * 进阶: 递归算法很简单，你可以通过迭代算法完成吗？
  */
-public class Q144 {
+public class BinaryTreePreorderTraversal {
     public List<Integer> preorderTraversal(TreeNode root) {
         /*LinkedList<TreeNode> stack = new LinkedList<>();
         LinkedList<Integer> ans = new LinkedList<>();

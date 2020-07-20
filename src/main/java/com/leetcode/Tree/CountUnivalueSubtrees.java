@@ -7,7 +7,7 @@ import com.datastructures.TreeNode;
  *
  * A Uni-value subtree means all nodes of the subtree have the same value.
  */
-public class Q250 {
+public class CountUnivalueSubtrees {
     int count = 0;
     public int countUnivalSubtrees(TreeNode root) {
         if (root == null) return 0;
@@ -57,7 +57,7 @@ public class Q250 {
         node1.right = node3;
         node2.left = node4;
         node3.right = node5;
-        Q250 solution = new Q250();
+        CountUnivalueSubtrees solution = new CountUnivalueSubtrees();
         System.out.println(solution.countUnivalSubtrees(node1));
     }
 }

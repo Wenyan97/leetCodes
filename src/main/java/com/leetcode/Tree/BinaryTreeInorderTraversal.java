@@ -18,7 +18,7 @@ import java.util.Stack;
  *
  * Output: [1,3,2]
  */
-public class Q94 {
+public class BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();
         List<Integer> ans = new ArrayList<>();

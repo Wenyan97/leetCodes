@@ -10,7 +10,7 @@ import java.util.List;
  *
  * Note: A leaf is a node with no children.
  */
-public class Q257 {
+public class BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> paths = new ArrayList<>();
         if (root == null) return paths;
@@ -36,7 +36,7 @@ public class Q257 {
         node1.left = node2;
         node1.right = node3;
         node2.right = node4;
-        Q257 solution = new Q257();
+        BinaryTreePaths solution = new BinaryTreePaths();
         solution.binaryTreePaths(node1);
         System.out.println(222);
     }

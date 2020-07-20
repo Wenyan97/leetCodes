@@ -9,7 +9,7 @@ import com.datastructures.TreeNode;
  *
  * a binary tree in which the left and right subtrees of every node differ in height by no more than 1.
  */
-public class Q110 {
+public class BalancedBinaryTree {
     int minDepth = Integer.MAX_VALUE;
     public boolean isBalanced(TreeNode root) {
         if (root == null) {
@@ -24,7 +24,7 @@ public class Q110 {
     public int findMaxDepth(TreeNode root) {
         return root == null ? 0 : Math.max(findMaxDepth(root.left), findMaxDepth(root.right)) + 1;
     }
-    
+
    /* public void dfs(TreeNode root, int currDepth) {
         if (root == null) return;
         currDepth++;

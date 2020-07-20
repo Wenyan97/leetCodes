@@ -14,7 +14,7 @@ import java.util.List;
  *
  * Note: A leaf is a node with no children.
  */
-public class Q129 {
+public class SumRootToLeafNumbers {
     List<Integer> numberList = new ArrayList<>();
     public int sumNumbers(TreeNode root) {
         dfs(root, 0);
@@ -45,7 +45,7 @@ public class Q129 {
         node1.right = node3;
         node2.left = node4;
         node2.right = node5;
-        Q129 solution = new Q129();
+        SumRootToLeafNumbers solution = new SumRootToLeafNumbers();
         solution.dfs(node1, 0);
         System.out.println("sdsd");
     }

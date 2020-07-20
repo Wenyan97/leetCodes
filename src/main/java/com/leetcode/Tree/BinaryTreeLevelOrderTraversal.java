@@ -4,13 +4,12 @@ import com.datastructures.TreeNode;
 import com.leetcode.TreeCreator;
 
 import java.util.*;
-import java.util.concurrent.LinkedBlockingDeque;
 
 /**
  * Given a binary tree, return the level order traversal of its nodes' values.
  * (ie, from left to right, level by level).
  */
-public class Q102 {
+public class BinaryTreeLevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         List<List<Integer>> ans = new ArrayList<>();
@@ -80,7 +79,7 @@ public class Q102 {
         node1.right = node3;
         node2.left = node4;
         node2.right = node5;
-        Q102 solution = new Q102();
+        BinaryTreeLevelOrderTraversal solution = new BinaryTreeLevelOrderTraversal();
         int[] list = new int[]{1,2,4,5,6,7};
         TreeNode node7 = TreeCreator.bulidBST(list);
         List<List<Integer>> ans = solution.levelOrder(node1);
