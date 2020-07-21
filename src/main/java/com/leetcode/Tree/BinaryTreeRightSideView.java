@@ -1,7 +1,6 @@
 package com.leetcode.Tree;
 
 import com.datastructures.TreeNode;
-import sun.awt.image.ImageWatched;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
