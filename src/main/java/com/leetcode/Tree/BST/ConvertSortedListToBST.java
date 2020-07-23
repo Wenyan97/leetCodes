@@ -2,7 +2,6 @@ package com.leetcode.Tree.BST;
 
 import com.datastructures.ListNode;
 import com.datastructures.TreeNode;
-import sun.jvm.hotspot.ui.tree.BadAddressTreeNodeAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
