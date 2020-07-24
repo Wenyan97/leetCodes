@@ -1,4 +1,4 @@
-package com.leetcode.Tree.BST;
+package com.leetcode.Tree;
 
 import com.datastructures.TreeNode;
 
