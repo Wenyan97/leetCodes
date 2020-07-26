@@ -29,7 +29,4 @@ public class ClosestBinarySearchTreeValue {
         helper(root.right, target);
     }
 
-    public static void main(String[] args) {
-
-    }
 }
