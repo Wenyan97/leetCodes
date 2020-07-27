@@ -24,7 +24,7 @@ public class VerifyPreorderSerializationOfABinaryTree {
         for (String node : preorder.split(",")) {
             slots--;
             if (slots < 0) return false;
-            if (!"#".equals(node)) slots++;
+            if (!"#".equals(node)) slots+=2;
         }
         return slots == 0;
     }
