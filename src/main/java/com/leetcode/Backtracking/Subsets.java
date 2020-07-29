@@ -19,8 +19,11 @@ public class Subsets {
     public void backtrack(int[] nums, LinkedList<Integer> track, int start) {
         res.add(new LinkedList<>(track));
         for (int i = start; i < nums.length; i++) {
+            //选择
             track.add(nums[i]);
+            //回溯
             backtrack(nums, track, i + 1);
+            //撤销选择
             track.removeLast();
         }
     }
