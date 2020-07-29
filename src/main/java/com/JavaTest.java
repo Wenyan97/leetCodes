@@ -4,7 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class JavaTest {
+public class JavaTest extends Thread{
+    public synchronized void run() {
+        for (int i = 0; i <= 10; i++) {
+            Thread t = Thread.currentThread();
+            System.out.println(t.getName() + ": " + i);
+        }
+    }
     public static void main(String[] args) {
         Map<Integer, String> map = new HashMap<>();
         map.put(1, "tom");
@@ -12,13 +18,14 @@ public class JavaTest {
         map.put(3, "jerry");
         map.put(4, "allen");
         map.put(5, "ketty");
-        for (int n : map.keySet()) {
-            System.out.println(map.get(n));
-        }
 
-        Set set = map.entrySet();
-        System.out.println(set.stream());
+        JavaTest obj = new JavaTest();
+        Thread t1 = new Thread(obj);
+        Thread t2 = new Thread(obj);
+        Thread t3 = new Thread(obj);
 
-        System.out.println(Integer.MAX_VALUE);
+        t1.start();
+        t2.start();
+        t3.start();
     }
 }
