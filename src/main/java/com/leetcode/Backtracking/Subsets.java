@@ -1,7 +1,5 @@
 package com.leetcode.Backtracking;
 
-import sun.awt.image.ImageWatched;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
