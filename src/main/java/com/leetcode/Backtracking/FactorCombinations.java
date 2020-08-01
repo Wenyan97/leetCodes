@@ -20,15 +20,19 @@ public class FactorCombinations {
     }
 
     public void backtrack2(int sum, ArrayList<Integer> path, int curr, int start) {
+//        if(start > sum || curr > sum ) return;
         if (curr == sum) {
             ans.add(new ArrayList<>(path));
         } else if (curr > sum) return;
         for (int i = start; i <= sum / 2; i++) {
-            path.add(i);
-            curr *= i;
-            backtrack2(sum, path, curr, i);
-            curr /= i;
-            path.remove(path.size() - 1);
+            if(i * curr > sum) break;
+            if (sum % i == 0) {
+                path.add(i);
+//                curr *= i;
+                backtrack2(sum, path, curr * i, i);
+//                curr /= i;
+                path.remove(path.size() - 1);
+            }
         }
     }
 
