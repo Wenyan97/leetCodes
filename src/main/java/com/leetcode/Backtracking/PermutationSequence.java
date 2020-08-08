@@ -1,6 +1,5 @@
 package com.leetcode.Backtracking;
 
-import com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector;
 
 /**
  * The set [1,2,3,...,n] contains a total of n! unique permutations.

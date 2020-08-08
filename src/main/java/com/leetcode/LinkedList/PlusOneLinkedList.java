@@ -1,7 +1,6 @@
 package com.leetcode.LinkedList;
 
 import com.datastructures.ListNode;
-import com.sun.org.apache.xpath.internal.operations.Plus;
 
 public class PlusOneLinkedList {
     public ListNode plusOne(ListNode head) {
