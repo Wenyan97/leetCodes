@@ -35,6 +35,26 @@ public class SumRootToLeafNumbers {
         dfs(root.right, sum * 10);
     }
 
+
+
+    int sum = 0;
+    public int sumNumbers2(TreeNode root) {
+        if (root == null) return 0;
+        dfs(root, 0);
+        return sum;
+    }
+
+    public void dfs2(TreeNode root, int currSum) {
+        if (root == null) return;
+        currSum += root.val;
+        if (root.left == null && root.right == null) {
+            sum += currSum;
+            return;
+        }
+        dfs(root.left, currSum * 10);
+        dfs(root.right, currSum * 10);
+    }
+
     public static void main(String[] args) {
         TreeNode node1 = new TreeNode(4);
         TreeNode node2 = new TreeNode(9);
