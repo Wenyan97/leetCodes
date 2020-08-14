@@ -12,14 +12,13 @@ import java.util.Map;
  */
 public class BinaryTreeLongestConsecutiveSequence {
     int maxSum = Integer.MIN_VALUE;
-    Map<TreeNode, TreeNode> nodeMap = new HashMap<>();
     public int longestConsecutive(TreeNode root) {
         if (root == null) return 0;
         dfs(root, 1);
         return maxSum;
     }
 
-    //lintcode 80%
+    //lintCode 80%
     public void dfs(TreeNode root, int currlength) {
         if (root == null) return;
         if (root.left != null) {
