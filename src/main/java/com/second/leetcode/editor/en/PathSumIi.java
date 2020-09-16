@@ -32,12 +32,14 @@ package com.second.leetcode.editor.en;
 
 import com.datastructures.TreeNode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class PathSumIi {
     public static void main(String[] args) {
         Solution solution = new PathSumIi().new Solution();
+        HashSet<Integer> set = new HashSet<>();
+        set.add(1);
+        set.add(2);
     }
     
     //leetcode submit region begin(Prohibit modification and deletion)
