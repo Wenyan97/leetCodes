@@ -1,4 +1,4 @@
-package com.leetcode3.Tree;
+package com.leetcode3.Tree.base;
 
 import com.datastructures.TreeNode;
 
