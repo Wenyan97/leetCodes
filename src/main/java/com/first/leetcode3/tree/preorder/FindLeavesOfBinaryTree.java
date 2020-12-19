@@ -1,4 +1,4 @@
-package com.first.leetcode3.tree;
+package com.first.leetcode3.tree.preorder;
 
 import com.datastructures.TreeNode;
 
