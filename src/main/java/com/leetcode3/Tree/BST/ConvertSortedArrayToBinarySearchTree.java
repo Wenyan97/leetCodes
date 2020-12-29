@@ -14,5 +14,4 @@ public class ConvertSortedArrayToBinarySearchTree {
         root.right = sortedArrayToBST(Arrays.copyOfRange(nums, rootIndex + 1, len));
         return root;
     }
-    
 }
