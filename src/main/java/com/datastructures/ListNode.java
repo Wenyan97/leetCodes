@@ -1,7 +1,5 @@
 package com.datastructures;
 
-import java.util.List;
-
 public class ListNode {
     public int val;
     public ListNode next;
