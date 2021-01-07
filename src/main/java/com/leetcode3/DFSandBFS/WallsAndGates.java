@@ -14,27 +14,13 @@ INF  -1 INF  -1
   0  -1   3   4
  */
 public class WallsAndGates {
-
-       // private void dfs(int[][] rooms, int x, int y, int distance) {
-    //     if (!inBound(rooms, x, y) || rooms[x][y] == -1) {
-    //         return;
-    //     }
-    //     if (rooms[x][y] > distance || distance == 0) {
-    //         rooms[x][y] = distance;
-    //         dfs(rooms, x + 1, y, distance + 1);
-    //         dfs(rooms, x, y + 1, distance + 1);
-    //         dfs(rooms, x - 1, y, distance + 1);
-    //         dfs(rooms, x, y - 1, distance + 1);
-    //     }
-    // }
-
     static int INF = Integer.MAX_VALUE;
     public void wallsAndGates(int[][] rooms) {
         // write your code here
         for (int i = 0; i < rooms.length; i++) {
             for (int j = 0; j < rooms[0].length; j++) {
                 if (rooms[i][j] == 0) {
-                    findDoor(rooms, i, j, 0);
+                    dfs(rooms, i, j, 0);
                 }
             }
         }
