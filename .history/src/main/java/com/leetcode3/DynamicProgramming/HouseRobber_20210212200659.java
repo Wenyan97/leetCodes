@@ -2,20 +2,12 @@ package com.leetcode3.DynamicProgramming;
 
 public class HouseRobber {
     public int rob(int[] nums) {
-        int len = nums.length;
-        if (len == 0) {
-            return 0;
+        int count = Integer.MIN_VALUE;
+        if (nums.length == 1) {
+            return nums[0];
         }
-        int[] dp = new int[len];
-        dp[0] = nums[0];
-        for (int i = 1; i < len; i++) {
-            if (i == 1) {
-                dp[i] = Math.max(dp[0], nums[i]);
-            } else {
-                dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
-            }
-        }
-        return dp[len - 1];
+
+        
     }
     
     /* public int maxi(int[] a, int l, int r) {
