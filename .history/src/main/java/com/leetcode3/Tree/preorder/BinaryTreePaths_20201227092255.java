@@ -21,6 +21,9 @@ public class BinaryTreePaths {
             sb.append(root.val);
             res.add(sb.toString());
             sb.delete(sb.length() - len, sb.length());
+            /*if (root.val >= 0) {
+                sb.setLength(sb.length() - String.valueOf(root.val).length());
+            } else sb.setLength(sb.length() - 1 - String.valueOf(root.val).length());*/
             return;
         } else {
             sb.append(root.val).append("->");

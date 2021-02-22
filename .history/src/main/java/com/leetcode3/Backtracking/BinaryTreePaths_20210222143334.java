@@ -1,46 +1,47 @@
-package com.leetcode3.Tree.preorder;
-
-import com.datastructures.TreeNode;
+package com.leetcode3.Backtracking;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.datastructures.TreeNode;
+
+
 public class BinaryTreePaths {
     List<String> res = new ArrayList<>();
     public List<String> binaryTreePaths(TreeNode root) {
-        if (root == null) return res;
-        StringBuilder sb = new StringBuilder("");
-        dfs(root, sb);
+        if (root == null) {
+            return res;
+        }
+        backtracking(root, new StringBuilder(""));
         return res;
     }
 
-    public void dfs(TreeNode root,  StringBuilder sb) {
+    public void backtracking(TreeNode root, StringBuilder sb) {
         if (root == null) return;
         int len = String.valueOf(root.val).length();
+        sb.append(root.val);
         if (root.left == null && root.right == null) {
-            sb.append(root.val);
             res.add(sb.toString());
             sb.delete(sb.length() - len, sb.length());
-            return;
         } else {
-            sb.append(root.val).append("->");
+            sb.append("->");
+            backtracking(root.left, sb);
+            backtracking(root.right, sb);
+            sb.delete(sb.length() - len - 2, sb.length());
         }
-        dfs(root.left, sb);
-        dfs(root.right, sb);
-        sb.delete(sb.length() - 2 - len, sb.length());
     }
 
-
     public static void main(String[] args) {
-        BinaryTreePaths solution = new BinaryTreePaths();
-        TreeNode node1 = new TreeNode(-1);
-        TreeNode node2 = new TreeNode(20);
+        TreeNode node1 = new TreeNode(1);
+        TreeNode node2 = new TreeNode(2);
         TreeNode node3 = new TreeNode(3);
         TreeNode node4 = new TreeNode(5);
         node1.left = node2;
         node1.right = node3;
         node2.right = node4;
-        List<String> list = solution.binaryTreePaths(node1);
-        System.out.println(list);
+        BinaryTreePaths solution = new BinaryTreePaths();
+        solution.binaryTreePaths(node1);
+
+
     }
 }
