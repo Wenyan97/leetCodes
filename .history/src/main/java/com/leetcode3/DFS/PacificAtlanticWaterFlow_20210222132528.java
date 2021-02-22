@@ -18,7 +18,7 @@ public class PacificAtlanticWaterFlow {
     }
 
     public boolean dfs1(int[][] matrix, int r, int c, long pre) {
-        if(r > matrix.length-1 || c > matrix[0].length-1 || matrix[r][c] == -1 || matrix[r][c] > pre){
+        if(r > matrix.length-1 || r > matrix[0].length-1 || matrix[r][c] == -1 || matrix[r][c] > pre){
             return false;
         }
         if (r <= 0 || c <= 0) {
