@@ -67,28 +67,19 @@ public class QuickSort {
                 sb.append(r);
             }
             if (r >= 'A' && r <= 'Z') {
-                sb.append(r);
+                sb.append(r + 32);
             }
         }
-        String str = sb.toString().toLowerCase();
-        // System.out.println(str);
-        int length = sb.length();
+        System.out.println(sb.toString());
+        // int length = sb.length();
         // even
-        if (length % 2 == 0) {
-            int l = sb.length() / 2 - 1;
-            int r = l + 1;
-            while (l >= 0 && r < str.length()) {
-                if (str.charAt(l) != str.charAt(r)) return false;
-                l--; r++;
-            }
-        } else {
-            int l = sb.length() / 2 - 1;
-            int r = l + 2;
-            while (l >= 0 && r < str.length()) {
-                if (str.charAt(l) != str.charAt(r)) return false;
-                l--; r++;
-            }
+        int l = sb.length() / 2 - 1;
+        int r = l + 1;
+        while (l >= 0 && r < sb.length()) {
+            if (sb.charAt(l) != sb.charAt(r)) return false;
+            l--; r++;
         }
+        
         return true;
             
     }
@@ -96,7 +87,7 @@ public class QuickSort {
     public static void main(String[] args) {
         QuickSort solution = new QuickSort();
         System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
-        System.out.println(solution.isPalindrome("0P"));
+        System.out.println(solution.isPalindrome("A man, a plan, a canal: Panama"));
     }
 
 }

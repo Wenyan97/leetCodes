@@ -96,7 +96,7 @@ public class QuickSort {
     public static void main(String[] args) {
         QuickSort solution = new QuickSort();
         System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
-        System.out.println(solution.isPalindrome("0P"));
+        System.out.println(solution.isPalindrome("OP"));
     }
 
 }

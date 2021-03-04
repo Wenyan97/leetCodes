@@ -59,44 +59,9 @@ public class QuickSort {
         return res;
     }
 
-    public boolean isPalindrome(String s) {
-        StringBuilder sb = new StringBuilder("");
-        for (int i = 0; i < s.length(); i++) {
-            char r = s.charAt(i);
-            if (r >= 'a' && r <= 'z') {
-                sb.append(r);
-            }
-            if (r >= 'A' && r <= 'Z') {
-                sb.append(r);
-            }
-        }
-        String str = sb.toString().toLowerCase();
-        // System.out.println(str);
-        int length = sb.length();
-        // even
-        if (length % 2 == 0) {
-            int l = sb.length() / 2 - 1;
-            int r = l + 1;
-            while (l >= 0 && r < str.length()) {
-                if (str.charAt(l) != str.charAt(r)) return false;
-                l--; r++;
-            }
-        } else {
-            int l = sb.length() / 2 - 1;
-            int r = l + 2;
-            while (l >= 0 && r < str.length()) {
-                if (str.charAt(l) != str.charAt(r)) return false;
-                l--; r++;
-            }
-        }
-        return true;
-            
-    }
 
     public static void main(String[] args) {
         QuickSort solution = new QuickSort();
         System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
-        System.out.println(solution.isPalindrome("0P"));
     }
-
 }
