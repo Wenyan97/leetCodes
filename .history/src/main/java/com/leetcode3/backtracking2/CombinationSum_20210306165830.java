@@ -2,9 +2,7 @@ package com.leetcode3.backtracking2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.graalvm.compiler.nodes.calc.CompareNode;
 
@@ -76,8 +74,6 @@ public class CombinationSum {
         StringBuilder s = new StringBuilder("23");
         CombinationSum solution = new CombinationSum();
         solution.combinationSum(candidates, 8);
-        Map<Integer, Integer> map = new HashMap<>();
-        map.con
     }
 
 }
