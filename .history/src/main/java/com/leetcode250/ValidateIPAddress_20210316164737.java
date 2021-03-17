@@ -14,7 +14,7 @@ public class ValidateIPAddress {
         String ip = "213.123.45.123";
         String[] s = ip.split(".");
         System.out.println(s);
-        Integer tmp = Integer.parseInt("1e1");
+        int tmp = Integer.getInteger("343");
         System.out.println(tmp);
 
     }
