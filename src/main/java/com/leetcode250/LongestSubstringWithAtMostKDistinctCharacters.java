@@ -30,6 +30,6 @@ public class LongestSubstringWithAtMostKDistinctCharacters {
     public static void main(String[] args) {
         LongestSubstringWithAtMostKDistinctCharacters so = new LongestSubstringWithAtMostKDistinctCharacters();
         System.out.println(so.lengthOfLongestSubstringKDistinct("eceba", 2));
-        Thread
+        
     }
 }
