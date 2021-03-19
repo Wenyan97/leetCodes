@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-
+import com.datastructures.ListNode;
 
 /**
  * 给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
@@ -40,20 +40,20 @@ public class Test {
 
     
     
-    // public ListNode deleteDuplicates(ListNode head) {
-    //     if (head == null || head.next == null) return head;
-    //     ListNode curr = head, next = head.next;
-    //     while (next != null) {
-    //         if (curr.val != next.val) {
-    //             curr = curr.next;
-    //             next = next.next;
-    //         } else {
-    //             curr.next = next.next;
-    //             next = next.next; 
-    //         }
-    //     }
-    //     return head;
-    // }
+    public ListNode deleteDuplicates(ListNode head) {
+        if (head == null || head.next == null) return head;
+        ListNode curr = head, next = head.next;
+        while (next != null) {
+            if (curr.val != next.val) {
+                curr = curr.next;
+                next = next.next;
+            } else {
+                curr.next = next.next;
+                next = next.next; 
+            }
+        }
+        return head;
+    }
 
 
     public List<List<Integer>> threeSum(int[] nums) {
