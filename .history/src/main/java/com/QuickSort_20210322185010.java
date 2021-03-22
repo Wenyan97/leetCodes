@@ -106,8 +106,8 @@ public class QuickSort {
         
         for (int i = 1; i < len + 1; i++) {
             for (int j = 0; j < i; j++) {
-                String str = s.substring(j, i);
-                if (dp[j] && dict.contains(str)) {
+                String str = s.substring()
+                if (dp[j] && dict.contains(s.substring(j, i))) {
                     dp[i] = true;
                     break;
                 }

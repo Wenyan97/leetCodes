@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Stack;
 
-import org.graalvm.compiler.nodes.calc.CompareNode;
 
 /**
  * 给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
@@ -106,11 +105,13 @@ public class CombinationSum {
         int res = 1;
         for (int i = 1; i < len; i++) {
             for (int j = 0; j < i; j++) {
-                if (nums[j] >= nums[i]) continue;
+                if (nums[j] >= nums[i]) {
+                    continue;
+                }
                 dp[i] = Math.max(dp[i], dp[j] + 1);
             }
         }
-        return Arrays.stream(dp).max().orElseThrow();
+        return Arrays.stream(dp).max().getAsInt();
     }
     
     

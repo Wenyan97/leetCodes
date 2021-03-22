@@ -106,8 +106,7 @@ public class QuickSort {
         
         for (int i = 1; i < len + 1; i++) {
             for (int j = 0; j < i; j++) {
-                String str = s.substring(j, i);
-                if (dp[j] && dict.contains(str)) {
+                if (dp[j] && dict.contains(s.substring(j, i - j))) {
                     dp[i] = true;
                     break;
                 }
@@ -120,11 +119,8 @@ public class QuickSort {
 
     public static void main(String[] args) {
         QuickSort solution = new QuickSort();
-        // System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
-        // System.out.println(solution.isPalindrome("0P"));
-        String s = "leetcode";
-        List<String> word = Arrays.asList("leet", "code");
-        solution.wordBreak(s, word);
+        System.out.println(solution.lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(solution.isPalindrome("0P"));
     }
 
 }

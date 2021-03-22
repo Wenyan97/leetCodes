@@ -116,13 +116,33 @@ public class Test {
         return list;
     }
 
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int[] nums1Copy = Arrays.copyOf(nums1, m);
+        int p1 = 0, p2 = 0;
+        int p = 0;
+        while (p1 < m && p2 < n) {
+            if (nums1Copy[p1] < nums2[p2]) {
+                nums1[p] = nums1Copy[p1];
+                p1++;
+
+            } else {
+                nums1[p] = nums2[p2];
+                p2++;
+            }
+            p++;
+        }
+
+        if (p1 < m) System.arraycopy(nums1Copy, p1, nums1, p1 + p2, m + n - p1 - p2);
+        if (p2 < n) System.arraycopy(nums2, p2, nums1, p1 + p2, m + n - p1 - p2);
+    }
+
     public static void main(String[] args) {
-        int[][] nums = {{1,2,3,4}, {5,6,7,8}, {9,10,11,12}};
-        // int a = Arrays.stream(nums).max().getAsInt();
-        Test solution = new Test();
-        List<Integer> list = solution.spiralOrder(nums);
-        // System.out.println(solution.maxSubArray(nums));
-        // System.out.println(1 / 2);
+        Test so = new Test();
+        int[] nums1 = {1,2,3,0,0,0};
+        int m = 3;
+        int[] nums2 = {2,5,6};
+        int n = 3;
+        so.merge(nums1, m, nums2, n);
     }
     
 }

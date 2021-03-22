@@ -1,0 +1,1239 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudentManager",
+            "request": "launch",
+            "mainClass": "com.DItest.StudentManager",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch LambdaTest",
+            "request": "launch",
+            "mainClass": "com.Java8Test.LambdaTest",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch mainTest",
+            "request": "launch",
+            "mainClass": "com.Java8Test.mainTest",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReflectClass",
+            "request": "launch",
+            "mainClass": "com.JavaReflection.ReflectClass",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaExceptionTest",
+            "request": "launch",
+            "mainClass": "com.JavaSE.JavaExceptionTest",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaTest",
+            "request": "launch",
+            "mainClass": "com.JavaSE.JavaTest",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Outer",
+            "request": "launch",
+            "mainClass": "com.JavaSE.Outer",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test2",
+            "request": "launch",
+            "mainClass": "com.JavaSE.Test2",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test3",
+            "request": "launch",
+            "mainClass": "com.JavaSE.Test3",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test4",
+            "request": "launch",
+            "mainClass": "com.JavaSE.Test4",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch TreadTest",
+            "request": "launch",
+            "mainClass": "com.JavaSE.TreadTest",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaTest(1)",
+            "request": "launch",
+            "mainClass": "com.JavaTest",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuickSort",
+            "request": "launch",
+            "mainClass": "com.QuickSort",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "com.Test",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch FilteringApples",
+            "request": "launch",
+            "mainClass": "com.chap1.FilteringApples",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BST",
+            "request": "launch",
+            "mainClass": "com.datastructures.BST",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateArray",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Array.RotateArray",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationSumIII",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.CombinationSumIII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationSumIV",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.CombinationSumIV",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorCombinations",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.FactorCombinations",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch GeneralizedAbbreviation",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.GeneralizedAbbreviation",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetterCombinationsOfAPhoneNumber",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.LetterCombinationsOfAPhoneNumber",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationSequence",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.PermutationSequence",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Permutations",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.Permutations",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationsII",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.PermutationsII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubsetsII",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.SubsetsII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordPatternII",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Backtracking.WordPatternII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClimbingStairs",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.DynamicProgramming.ClimbingStairs",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniquePathII",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.DynamicProgramming.UniquePathII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniquePaths",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.DynamicProgramming.UniquePaths",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.AddTwoNumbers",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeTwoSortedLists",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.MergeTwoSortedLists",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlusOneLinkedList",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.PlusOneLinkedList",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicatesFromSortedList",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.RemoveDuplicatesFromSortedList",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDuplicatesFromSortedListII",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.RemoveDuplicatesFromSortedListII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveLinkedListElements",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.RemoveLinkedListElements",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveNthNodeFromEndOfList",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.RemoveNthNodeFromEndOfList",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReorderList",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.ReorderList",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.ReverseLinkedList",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedListII",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.ReverseLinkedListII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateList",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.RotateList",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortList",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.LinkedList.SortList",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BSTIterator",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BST.BSTIterator",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConvertSortedListToBST",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BST.ConvertSortedListToBST",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch LowestCommonAncestorOfABinaryTree",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BST.LowestCommonAncestorOfABinaryTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch RecoverBinarySearchTree",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BST.RecoverBinarySearchTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidateBinarySearchTree",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BST.ValidateBinarySearchTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BinaryTreeLevelOrderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeLongestConsecutiveSequence",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BinaryTreeLongestConsecutiveSequence",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePaths",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BinaryTreePaths",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeUpsideDown",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BinaryTreeUpsideDown",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeVerticalOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BinaryTreeVerticalOrderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeZigzagLevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.BinaryTreeZigzagLevelOrderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountUnivalueSubtrees",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.CountUnivalueSubtrees",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindLeavesOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.FindLeavesOfBinaryTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch HouseRobberIII",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.HouseRobberIII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumRootToLeafNumbers",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.SumRootToLeafNumbers",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch SymmetricTree",
+            "request": "launch",
+            "mainClass": "com.first.leetcode.Tree.SymmetricTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePreorderTraversal",
+            "request": "launch",
+            "mainClass": "com.first.leetcode3.tree.base.BinaryTreePreorderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeMaximumPathSum",
+            "request": "launch",
+            "mainClass": "com.first.leetcode3.tree.preorder.BinaryTreeMaximumPathSum",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePaths(1)",
+            "request": "launch",
+            "mainClass": "com.first.leetcode3.tree.preorder.BinaryTreePaths",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindLeavesOfBinaryTree(1)",
+            "request": "launch",
+            "mainClass": "com.first.leetcode3.tree.preorder.FindLeavesOfBinaryTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch HouseRobberIII(1)",
+            "request": "launch",
+            "mainClass": "com.first.leetcode3.tree.preorder.HouseRobberIII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidateBinarySearchTree(1)",
+            "request": "launch",
+            "mainClass": "com.first.leetcode3.tree.preorder.ValidateBinarySearchTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BSTIterator(1)",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.BSTIterator",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Codec",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Codec",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaTest(2)",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.JavaTest",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q1",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q100",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q100",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q101",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q101",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q11",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q11",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q111",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q111",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q113",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q113",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q12",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q12",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q129",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q129",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q13",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q13",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q14",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q14",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q17",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q17",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q199",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q199",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q2",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q2",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q222",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q222",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q3",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q3",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q337",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q337",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q4",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q4",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q404",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q404",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q508",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q508",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q513",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q513",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q515",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q515",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q530",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q530",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q543",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q543",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q6",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q6",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q623",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q623",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q652",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q652",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q654",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q654",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q7",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q7",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q701",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q701",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q814",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q814",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q863",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q863",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q865",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q865",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q894",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q894",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q94",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q94",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q951",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q951",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q958",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q958",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q96",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q96",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q98",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q98",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q98t",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.Q98t",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringTest",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.StringTest",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1(1)",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.arrayLearning.Q1",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibDemo",
+            "request": "launch",
+            "mainClass": "com.first.leetcodes.fibDemo",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructBinarySearchTreeFromPreorderTraversal",
+            "request": "launch",
+            "mainClass": "com.leetcode250.ConstructBinarySearchTreeFromPreorderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch LRUCache",
+            "request": "launch",
+            "mainClass": "com.leetcode250.LRUCache",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch LetterCombinationsOfAPhoneNumber(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode250.LetterCombinationsOfAPhoneNumber",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubstringWithAtMostKDistinctCharacters",
+            "request": "launch",
+            "mainClass": "com.leetcode250.LongestSubstringWithAtMostKDistinctCharacters",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubstringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "com.leetcode250.LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubstringWithoutRepeatingCharacters2",
+            "request": "launch",
+            "mainClass": "com.leetcode250.LongestSubstringWithoutRepeatingCharacters2",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfConnectedComponentsInAnUndirectedGraph",
+            "request": "launch",
+            "mainClass": "com.leetcode250.NumberOfConnectedComponentsInAnUndirectedGraph",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "com.leetcode250.SearchInRotatedSortedArray",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoSum",
+            "request": "launch",
+            "mainClass": "com.leetcode250.TwoSum",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidateIPAddress",
+            "request": "launch",
+            "mainClass": "com.leetcode250.ValidateIPAddress",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePaths(2)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Backtracking.BinaryTreePaths",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationSum",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Backtracking.CombinationSum",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationSumIV(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Backtracking.CombinationSumIV",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorCombinations(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Backtracking.FactorCombinations",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationSequence(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Backtracking.PermutationSequence",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordSearch",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Backtracking.WordSearch",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch subsets",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Backtracking.subsets",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PacificAtlanticWaterFlow",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DFS.PacificAtlanticWaterFlow",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfIslands",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DFSandBFS.NumberOfIslands",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch WallsAndGates",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DFSandBFS.WallsAndGates",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch EditDistance",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DP.EditDistance",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch WiggleSubsequence",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DP.LIS.WiggleSubsequence",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DP.LongestCommonSubsequence",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumProductSubarray",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DP.MaximumProductSubarray",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch UniquePaths(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DP.UniquePaths",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClimbingStairs(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DynamicProgramming.ClimbingStairs",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSubarray",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DynamicProgramming.MaximumSubarray",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PaintFence",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DynamicProgramming.PaintFence",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PaintHouse",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DynamicProgramming.PaintHouse",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PerfectSquares",
+            "request": "launch",
+            "mainClass": "com.leetcode3.DynamicProgramming.PerfectSquares",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlusOneLinkedList(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.LinkedList.PlusOneLinkedList",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumber",
+            "request": "launch",
+            "mainClass": "com.leetcode3.SingleNumber",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Substitutaion",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Substitutaion",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeLevelOrderTraversalII",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.BFS.BinaryTreeLevelOrderTraversalII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeUpsideDown(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.BST.BinaryTreeUpsideDown",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeVerticalOrderTraversal(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.BST.BinaryTreeVerticalOrderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClosestBinarySearchTreeValue",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.BST.ClosestBinarySearchTreeValue",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClosestBinarySearchTreeValueII",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.BST.ClosestBinarySearchTreeValueII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthSmallestElementInABST",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.BST.KthSmallestElementInABST",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PopulatingNextRightPointersInEachNode",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.BST.PopulatingNextRightPointersInEachNode",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryLongestConsecutiveSequence",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.preorder.BinaryLongestConsecutiveSequence",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePaths(3)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.preorder.BinaryTreePaths",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindLeavesOfBinaryTree(2)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.preorder.FindLeavesOfBinaryTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PathSumII",
+            "request": "launch",
+            "mainClass": "com.leetcode3.Tree.preorder.PathSumII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationSum(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.backtracking2.CombinationSum",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch CombinationSumIII(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.backtracking2.CombinationSumIII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationsII(1)",
+            "request": "launch",
+            "mainClass": "com.leetcode3.backtracking2.PermutationsII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subsets",
+            "request": "launch",
+            "mainClass": "com.leetcode3.backtracking2.Subsets",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalancedBinaryTree",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.BalancedBinaryTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeInorderTraversal",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.BinaryTreeInorderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeLevelOrderTraversal(1)",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.BinaryTreeLevelOrderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreeMaximumPathSum(1)",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.BinaryTreeMaximumPathSum",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePaths(4)",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.BinaryTreePaths",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePostorderTraversal",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.BinaryTreePostorderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePreorderTraversal(1)",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.BinaryTreePreorderTraversal",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountUnivalueSubtrees(1)",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.CountUnivalueSubtrees",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindLeavesOfBinaryTree(3)",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.FindLeavesOfBinaryTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch HouseRobberIII(2)",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.HouseRobberIII",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch InvertBinaryTree",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.InvertBinaryTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumDepthOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.MaximumDepthOfBinaryTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumDepthOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.MinimumDepthOfBinaryTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PathSum",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.PathSum",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch PathSumIi",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.PathSumIi",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch SameTree",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.SameTree",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumRootToLeafNumbers(1)",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.SumRootToLeafNumbers",
+            "projectName": "leetCodes"
+        },
+        {
+            "type": "java",
+            "name": "Launch SymmetricTree(1)",
+            "request": "launch",
+            "mainClass": "com.second.leetcode.editor.en.SymmetricTree",
+            "projectName": "leetCodes"
+        }
+    ]
+}
