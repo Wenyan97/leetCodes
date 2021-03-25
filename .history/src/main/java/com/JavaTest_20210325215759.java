@@ -1,9 +1,7 @@
 package com;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 public class JavaTest extends Thread{
     public synchronized void run() {
@@ -20,7 +18,7 @@ public class JavaTest extends Thread{
         map.put(4, "allen");
         map.put(5, "ketty");
 
-        Set<> set = new HashSet<>();
+        Set<>
 
         JavaTest obj = new JavaTest();
         Thread t1 = new Thread(obj);
