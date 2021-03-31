@@ -157,7 +157,9 @@ public class Test {
     }
     public static void main(String[] args) {
         Test so = new Test();
-        so.uniquePaths(3, 2);
+       
+       
+        so.merge(nums1, m, nums2, n);
     }
     
 }

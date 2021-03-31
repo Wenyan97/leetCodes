@@ -128,7 +128,7 @@ public class QuickSort {
 
     public boolean searchMatrix(int[][] matrix, int target) {
         int row = findRow(matrix, target);
-        if (row < matrix.length) return binarySearch(matrix[row], target);
+        if (row < matrix.length) binarySearch(matrix[row], target);
         return false;
     }
 
@@ -137,9 +137,9 @@ public class QuickSort {
 
         while (top < bottom) {
             int mid = (bottom - top) / 2;
-            if (nums[mid][0] == target) {
+            if (nums[mid] == target) {
                 return mid;
-            } else if (nums[mid][0] < target) {
+            } else if (nums[mid] < target) {
                 top = mid + 1;
             } else {
                 bottom = mid - 1;

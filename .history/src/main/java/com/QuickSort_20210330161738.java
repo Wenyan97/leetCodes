@@ -113,40 +113,18 @@ public class QuickSort {
         return n;
     }
 
-    // public int f(int N) {
-    //     // write your code in Java SE 11
-    //     int L = 0;
-    //     // sum is the summation of this arthmetic sequence 
-    //     int sum = (1 + L) * L / 2;
-    //     while (sum <= N) {
-    //         L++;
-    //         sum = (1 + L) * L / 2;
-    //     }
-    //     return L - 1;
-    // }
-
-
-    public boolean searchMatrix(int[][] matrix, int target) {
-        int row = findRow(matrix, target);
-        if (row < matrix.length) return binarySearch(matrix[row], target);
-        return false;
-    }
-
-    public int findRow(int[][] nums, int target) {
-        int top = 0, bottom = nums.length - 1;
-
-        while (top < bottom) {
-            int mid = (bottom - top) / 2;
-            if (nums[mid][0] == target) {
-                return mid;
-            } else if (nums[mid][0] < target) {
-                top = mid + 1;
-            } else {
-                bottom = mid - 1;
-            }
+    public int f(int N) {
+        // write your code in Java SE 11
+        int L = 0;
+        // sum is the summation of this arthmetic sequence 
+        int sum = (1 + L) * L / 2;
+        while (sum <= N) {
+            L++;
+            sum = (1 + L) * L / 2;
         }
-        return top;
+        return L - 1;
     }
+
 
     public boolean binarySearch(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
@@ -155,9 +133,9 @@ public class QuickSort {
             if (nums[mid] == target) {
                 return true;
             } else if (nums[mid] < target) {
-                left = mid + 1;
+                left++;
             } else {
-                right = mid - 1;
+                right--;
             }
         }
         return false;
@@ -170,9 +148,9 @@ public class QuickSort {
         // System.out.println(solution.isPalindrome("0P"));
         // System.out.println(solution.)
 
-        int[][] a = {{1, 3}};
-        System.out.println( solution.searchMatrix(a, 3));
-       
+        int[] a = {1, 3};
+        soutsolution.binarySearch(a, 3);
+        
        
     }
 
