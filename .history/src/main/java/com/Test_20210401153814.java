@@ -176,7 +176,7 @@ public class Test {
         }
         for (int i = 0; i < s.length(); i++) {
             if (i >= 0 && visited[i] == true) continue;
-            // if (i >= 1 && s.charAt(i) == s.charAt(i - 1)) continue;
+            if (i >= 1 && s.charAt(i) == s.charAt(i - 1)) continue;
             sb.append(s.charAt(i));
             visited[i] = true;
             dfs(strRes, visited, s, sb);

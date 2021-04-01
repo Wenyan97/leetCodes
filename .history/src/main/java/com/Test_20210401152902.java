@@ -159,28 +159,26 @@ public class Test {
     }
 
 
-    int index = 0;
 
     public String[] permutation(String s) {
         boolean[] visited = new boolean[s.length()];
         String[] strRes = new String[getPermutationNum(s.length())];
         if (s == null || s.length() == 0) return null;
-        dfs(strRes, visited, s, new StringBuilder(""));
+        dfs(strRes, visited, s, new StringBuilder(""), 0);
         return strRes;
     }
 
-    public void dfs(String[] strRes, boolean[] visited, String s, StringBuilder sb) {
+    public void dfs(String[] strRes, boolean[] visited, String s, StringBuilder sb, int index) {
         if (sb.length() == s.length()) {
             strRes[index++] = new StringBuilder(sb).toString();
             return;
         }
         for (int i = 0; i < s.length(); i++) {
             if (i >= 0 && visited[i] == true) continue;
-            // if (i >= 1 && s.charAt(i) == s.charAt(i - 1)) continue;
             sb.append(s.charAt(i));
             visited[i] = true;
-            dfs(strRes, visited, s, sb);
-            sb.deleteCharAt(sb.length() - 1);
+            dfs(strRes, visited, s, sb, index);
+            sb(s.length() - 1);
             visited[i] = false;
         }
     }
@@ -191,9 +189,8 @@ public class Test {
     }
     public static void main(String[] args) {
         Test so = new Test();
-        String s = "abc";
-        so.permutation(s);
-        
+        so.uniquePaths(3, 2);
+        Map<Integer> map = new HashMap<Integer, Integer>();
     }
     
 }
